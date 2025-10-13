@@ -53,6 +53,9 @@ import image51 from "@/assets/gallary/51.jpg";
 import image52 from "@/assets/gallary/52.jpg";
 import image53 from "@/assets/gallary/53.jpg";
 import image54 from "@/assets/gallary/54.jpg";
+import image55 from "@/assets/gallary/55.jpg";
+import image56 from "@/assets/gallary/56.jpg";
+import image57 from "@/assets/gallary/57.jpg";
 
 export const GallaryData = [
   {
@@ -165,7 +168,7 @@ export const GallaryData = [
   },
   {
     id: 19,
-    src: image18,
+    src: image56,
     title: "Beyond Fashion",
     category: "Editorial",
   },
@@ -177,13 +180,13 @@ export const GallaryData = [
   },
   {
     id: 21,
-    src: image20,
+    src: image18,
     title: "Golden Heritage",
     category: "Studio",
   },
   {
     id: 22,
-    src: image21,
+    src: image57,
     title: "Ethereal Looks",
     category: "Editorial",
   },
@@ -241,12 +244,12 @@ export const GallaryData = [
     title: "Refined Tradition",
     category: "Studio",
   },
-  // {
-  //   id: 32,
-  //   src: image31,
-  //   title: "Cultural Revival",
-  //   category: "Campaign",
-  // },
+  {
+    id: 32,
+    src: image51,
+    title: "Cultural Revival",
+    category: "Campaign",
+  },
   {
     id: 33,
     src: image32,
@@ -255,7 +258,7 @@ export const GallaryData = [
   },
   {
     id: 34,
-    src: image33,
+    src: image55,
     title: "Timeless Craft",
     category: "Campaign",
   },

@@ -23,7 +23,7 @@ export const ProductCard = ({ id, name, price, image, category }: ProductCardPro
       <div className="space-y-2">
         <p className="text-xs text-muted-foreground uppercase tracking-wider">{category}</p>
         <h3 className="font-medium text-lg">{name}</h3>
-        <p className="text-gold font-medium">${price}</p>
+        <p className="text-gold font-medium">ETB {price}</p>
       </div>
     </Link>
   );

@@ -21,22 +21,22 @@ const Home = () => {
     {
       id: "1",
       name: "Oromo Heritage Coat",
-      price: 320,
-      image: image,
+      price: 3200,
+      image: image54,
       category: "Outerwear",
     },
     {
       id: "2",
       name: "Qorichaa Modern Dress",
-      price: 285,
+      price: 2850,
       image: image14,
       category: "Dresses",
     },
     {
       id: "3",
       name: "Contemporary Diraa Pants",
-      price: 195,
-      image: image38,
+      price: 1950,
+      image: image45,
       category: "Bottoms",
     },
   ];
