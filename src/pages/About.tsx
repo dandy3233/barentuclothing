@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import designerPortrait from "@/assets/designer-portrait.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
+import image29 from "@/assets/gallary/29.jpg";
 
 const About = () => {
   return (
@@ -28,7 +29,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <img
-                src={designerPortrait}
+                src={image29}
                 alt="Designer portrait"
                 className="w-full h-[700px] object-cover"
               />
