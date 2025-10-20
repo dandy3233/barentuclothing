@@ -3,7 +3,8 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Instagram } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -115,10 +116,15 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <Instagram className="text-gold mt-1" size={24} />
+                    <FaPhoneAlt className="text-gold mt-1" size={24} />
                     <div>
-                      <h3 className="font-medium mb-1">Follow Us</h3>
-                      <p className="text-muted-foreground">@barentuclothing</p>
+                      <h3 className="font-medium mb-1">Call Us</h3>
+                      <a
+                        href="tel:+251912345678"
+                        className="text-muted-foreground hover:text-gold transition-colors"
+                      >
+                      +251 94 177 9703
+                      </a>
                     </div>
                   </div>
                 </div>
