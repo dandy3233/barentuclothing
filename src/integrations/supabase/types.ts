@@ -409,6 +409,7 @@ export type Database = {
           customer_email: string
           customer_id: string | null
           customer_name: string
+          customer_phone: string
           id: string
           notes: string | null
           order_number: string
