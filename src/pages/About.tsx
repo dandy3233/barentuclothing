@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import designerPortrait from "@/assets/designer-portrait.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import image29 from "@/assets/gallary/29.jpg";
+import image39 from "@/assets/gallary/39.jpg";
+import image57 from "@/assets/gallary/57.jpg";
+import image45 from "@/assets/gallary/45.jpg";
 
 const About = () => {
   return (
@@ -109,7 +112,7 @@ const About = () => {
             </div>
             <div className="order-1 lg:order-2 animate-fade-in">
               <img
-                src={gallery2}
+                src={image39}
                 alt="Studio workspace"
                 className="w-full h-[600px] object-cover"
               />

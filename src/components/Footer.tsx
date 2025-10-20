@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Instagram, Facebook, Mail } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { FaTiktok, FaTelegramPlane } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -82,21 +83,43 @@ export const Footer = () => {
             <div className="flex gap-4 mt-6">
               <a
                 href="https://www.instagram.com/barentu.clothing?igsh=aXpvaTE5MzQ1Z3Nw&utm_source=qr"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-transform hover:scale-110"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
               <a
                 href="#"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-transform hover:scale-110"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
               </a>
+
+              {/* Tiktok */}
+              <a
+                href="https://www.tiktok.com/@barentu.clothing?_t=ZS-90UhVuGdVps&_r=1"
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-transform hover:scale-110"
+                aria-label="TikTok"
+              >
+                <FaTiktok size={20} />
+              </a>
+
+              {/* Telegram */}
+              <a
+                href="https://t.me/barentucollection"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-transform hover:scale-110"
+
+                aria-label="Telegram"
+              >
+                <FaTelegramPlane size={20} />
+              </a>
+
               <a
                 href="#"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-transform hover:scale-110"
                 aria-label="Email"
               >
                 <Mail size={20} />
